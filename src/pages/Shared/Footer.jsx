@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-gray-400">
+      <footer className="">
         <div className="mx-auto customContainer space-y-8 py-16 lg:space-y-16 ">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
-              <div className="text-accent-light">PrinoPixel</div>
+              <div className="text-accent-light text-3xl font-bold">PrinoPixel</div>
 
               <p className="mt-4 max-w-xs text-accent-light">
                 Prinopixel offers bespoke IT solutions and development services,
