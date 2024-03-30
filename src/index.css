@@ -8,3 +8,8 @@ body {
   font-family: "PT Serif", serif;
   background: #000;
 }
+
+/* container */
+.customContainer {
+  @apply max-w-screen-2xl mx-auto;
+}

@@ -10,6 +10,9 @@ export default {
         accent: {
           light: "#fff",
         },
+        secendory:{
+          light: "#0a58ca"
+        }
       },
     },
   },
