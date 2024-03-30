@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center h-10">
-      <Link to="/">PrinoPixel</Link>
+    <div className="flex justify-between items-center h-10 text-white">
+      <Link to="/" className="font-bold text-3xl">PrinoPixel</Link>
       <ul className="flex items-center justify-between gap-10">
         <Link to="/careers">
           <li>Career</li>
