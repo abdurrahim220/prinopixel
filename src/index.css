@@ -10,6 +10,7 @@ body {
 }
 
 /* container */
+
 .customContainer {
-  @apply max-w-screen-2xl mx-auto;
+  @apply max-w-screen-2xl mx-auto px-5 lg:px-0;
 }
