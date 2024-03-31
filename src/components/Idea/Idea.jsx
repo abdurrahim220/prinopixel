@@ -2,31 +2,28 @@ import React from "react";
 
 const Idea = () => {
   return (
-    <div className="customContainer">
-      <section className="overflow-hidden bg-[url(https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80)] bg-cover bg-top bg-no-repeat">
-        <div className="bg-black/25 p-8 md:p-12 lg:px-16 lg:py-24">
-          <div className="text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl font-bold text-white sm:text-3xl md:text-5xl">
+    <div className="customContainer my-10 xl:my-16">
+      <section className="overflow-hidden bg-[#4A42EA] rounded-xl">
+        <div className="p-8 md:p-12 lg:px-16 lg:py-20">
+          <div className="text-start ">
+            <h2 className="text-title-md lg:text-title-md4 xl:text-title-lg font-bold text-primary-light">
               Have Any Project Idea
             </h2>
 
-            <p className="hidden  text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed">
+            <p className="text-primary-light font-medium md:mt-6 md:block  md:leading-relaxed text-title-sm md:text-title-sm2 xl:text-title-sm3 max-w-4xl">
               Prinopixel can help bring this idea to life by developing a
               user-friendly and responsive web application with modern design
-              and robust functionality. They can assist in designing intuitive
-              user interfaces, implementing secure user authentication,
-              integrating search and messaging features, and ensuring
-              scalability to accommodate growing user bases. Prinopixel can also
-              provide ongoing support and maintenance to ensure the platform
-              remains efficient and up-to-date with evolving community needs.
+              and robust functionality. Lets discuss about your offshore
+              project. We can Help you by our skillful Global team. You can take
+              a free counseling by taking a schedule.
             </p>
 
             <div className="mt-4 sm:mt-8">
               <a
                 href="#"
-                className="inline-block rounded-full bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                className="text-title-sm2 inline-block rounded-xl bg-primary-light px-4 py-2 md:px-6 md:py-4 xl:px-10  xl:py-6 font-semibold text-action-desc "
               >
-                Get Yours Today
+                Get Started
               </a>
             </div>
           </div>

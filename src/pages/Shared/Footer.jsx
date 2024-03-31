@@ -4,24 +4,26 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <footer className="">
+      <footer className="bg-accent-light2">
         <div className="mx-auto customContainer space-y-8 py-16 lg:space-y-16 ">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
-              <div className="text-accent-light text-3xl font-bold">PrinoPixel</div>
+              <div className="text-action-heading text-3xl font-bold">
+                PrinoPixel
+              </div>
 
-              <p className="mt-4 max-w-xs text-accent-light">
+              <p className="mt-4 max-w-xs text-action-desc">
                 Prinopixel offers bespoke IT solutions and development services,
                 including custom software, mobile apps, website design, and IT
                 consulting.
               </p>
 
-              <ul className="mt-8 flex gap-6 text-accent-light">
+              <ul className="mt-8 flex gap-6 text-action-subHeading">
                 <li>
                   <Link
                     to="https://www.facebook.com/prinopixel"
                     target="_blank"
-                    className="text-accent-light transition hover:opacity-75"
+                    className=" transition hover:opacity-75"
                   >
                     <span className="sr-only">Facebook</span>
 
@@ -60,7 +62,7 @@ const Footer = () => {
                   <Link
                     to="https://www.instagram.com/prinopixel/"
                     target="_blank"
-                    className="text-accent-light transition hover:opacity-75"
+                    className=" transition hover:opacity-75"
                   >
                     <span className="sr-only">Instagram</span>
 
@@ -94,7 +96,7 @@ const Footer = () => {
                   <Link
                     to="github.com"
                     target="_blank"
-                    className="text-accent-light transition hover:opacity-75"
+                    className=" transition hover:opacity-75"
                   >
                     <span className="sr-only">GitHub</span>
 
@@ -109,7 +111,7 @@ const Footer = () => {
                   <Link
                     to="https://www.linkedin.com/company/prinopixel/mycompany/"
                     target="_blank"
-                    className="text-accent-light transition hover:opacity-75"
+                    className="transition hover:opacity-75"
                   >
                     <span className="sr-only">Linkedin</span>
 
@@ -137,13 +139,15 @@ const Footer = () => {
 
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
               <div>
-                <p className="font-medium text-accent-light">Services</p>
+                <p className=" text-action-subHeading font-bold text-title-md md:text-title-md2 xl:text-title-md3">
+                  Services
+                </p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       {" "}
                       Company Review
@@ -153,7 +157,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       Accounts Review
                     </Link>
@@ -162,7 +166,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       {" "}
                       HR Consulting
@@ -172,7 +176,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       {" "}
                       SEO Optimisation
@@ -182,13 +186,13 @@ const Footer = () => {
               </div>
 
               <div>
-                <p className="font-medium text-accent-light">Company</p>
+                <p className="text-action-subHeading font-bold text-title-md md:text-title-md2 xl:text-title-md3">Company</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
                     <Link
                       to="/about"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       About
                     </Link>
@@ -197,7 +201,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       Meet the Team
                     </Link>
@@ -206,7 +210,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/carieers"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       Carieers
                     </Link>
@@ -215,13 +219,13 @@ const Footer = () => {
               </div>
 
               <div>
-                <p className="font-medium text-accent-light">Helpful Links</p>
+                <p className="text-action-subHeading font-bold text-title-md md:text-title-md2 xl:text-title-md3">Helpful Links</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
                     <Link
                       to="/contact"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       Contact Us
                     </Link>
@@ -230,7 +234,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       FAQs
                     </Link>
@@ -239,7 +243,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       {" "}
                       Live Chat{" "}
@@ -249,13 +253,13 @@ const Footer = () => {
               </div>
 
               <div>
-                <p className="font-medium text-accent-light">Legal</p>
+                <p className="text-action-subHeading font-bold text-title-md md:text-title-md2 xl:text-title-md3">Legal</p>
 
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       {" "}
                       Accessibility{" "}
@@ -265,7 +269,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       {" "}
                       Returns Policy{" "}
@@ -275,7 +279,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       {" "}
                       Refund Policy{" "}
@@ -285,7 +289,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="#"
-                      className="text-accent-light transition hover:opacity-75"
+                      className="text-action-desc text-title-sm md:text-title-sm2 transition hover:opacity-75"
                     >
                       {" "}
                       Hiring Statistics{" "}
@@ -296,7 +300,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <p className="text-xs text-accent-light">
+          <p className="text-action-desc text-start lg:text-center text-title-sm2 ">
             &copy; 2024. PrinoPixel. All rights reserved.
           </p>
         </div>

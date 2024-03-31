@@ -6,10 +6,10 @@
 
 body {
   font-family: "PT Serif", serif;
-  background: #000;
+  /* background: #000; */
+  /* background: #FFFFFF; */
 }
 
-
-.customContainer{
-  @apply max-w-screen-2xl mx-auto px-5 lg:px-0;
+.customContainer {
+  @apply max-w-screen-2xl mx-auto px-5 xl:px-0;
 }
