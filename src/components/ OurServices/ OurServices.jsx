@@ -2,8 +2,8 @@ import React from "react";
 import { services } from "../../utils/service";
 
 const OurServices = () => {
-  return <div className="customContainer text-white py-8">
-    <div className="text-center space-y-3">
+  return <div className="customContainer text-white py-12">
+    <div className="text-center space-y-5 text-black">
       <h4>Our Services</h4>
       <h2 className="text-2xl font-bold">Enhancing Creativity, Step by Step.</h2>
     </div>
