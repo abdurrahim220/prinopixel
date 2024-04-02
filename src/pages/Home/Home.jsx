@@ -5,6 +5,9 @@ import Offers from "../../components/Offer/Offers";
 import Idea from "../../components/Idea/Idea";
 import TestimonialSlider from "../../components/TestimonialSlider/TestimonialSlider";
 import About from "../../components/AboutUs/About";
+import Faq from "../../components/Faq/Faq";
+import Technology from "../../components/Technology/Technology";
+
 
 const Home = () => {
   return (
@@ -13,9 +16,12 @@ const Home = () => {
       <OurServices />
       <About/>
       <Offers />
+    
+      <Technology />
+      <Faq />
+      <TestimonialSlider />
       <Idea />
       {/* <HomeForm /> */}
-      <TestimonialSlider />
     </div>
   );
 };

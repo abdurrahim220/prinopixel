@@ -38,7 +38,7 @@ const Navbar = () => {
                 src="/hambergerMenu.svg"
                 alt=""
                 className="text-action-heading"
-                srcset=""
+                srcSet=""
               />
             )}
           </button>

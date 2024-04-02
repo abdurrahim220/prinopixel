@@ -17,7 +17,7 @@ export default {
           light2: "#F0F0FF", //!Background color some section
           dark: "#0654c4",
         },
-        secendory:{
+        secandary:{
           light: "#0a58ca"
         }
       },

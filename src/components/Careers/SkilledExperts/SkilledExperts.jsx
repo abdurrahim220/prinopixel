@@ -9,9 +9,9 @@ const SkilledExperts = () => {
             </div>
             <div className="space-y-5 mt-8">
                 {
-                    experts.map((item,index)=>(<div key={index} className="flex items-center  justify-between px-5 py-4 bg-secendory-light text-white rounded-lg">
+                    experts.map((item,index)=>(<div key={index} className="flex items-center  justify-between px-5 py-4 bg-indigo-950 rounded-lg">
                         <div className=" ">
-                            <h4 className="text-xl">
+                            <h4 className="text-xl text-white">
                                 {item.title}
                             </h4>
                             <p className="text-gray-400 text-title-sm">
@@ -19,7 +19,7 @@ const SkilledExperts = () => {
                             </p>
                         </div>
                         <div>
-                            <Button title="Apply" clasaName="bg-indigo-900 h-[50px] w-32 inline-block rounded-lg"/>
+                            <Button title="Apply" clasaName="bg-accent-dark h-[50px] w-32 inline-block rounded-lg"/>
                         </div>
                     </div>))
                 }
