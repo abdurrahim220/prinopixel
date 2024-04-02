@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 className='text-xl sm:text-[35px] md:text-[45px] sm:leading-[45px] md:leading-[60px] font-bold font-mono'>Affordable Big IT & <br className='hidden sm:block' /> Technology Solutions</h1>
           <p className='text-opacity-85 text-base'>The goal of IT services is to provide efficient and effective technology solutions that help businesses achieve their objectives.</p>
           <div>
-            <Button title="Get a Quote" clasaName="bg-secendory-light"/>
+            <Button title="Get a Quote" clasaName="bg-secendory-light h-[50px] w-40"/>
           </div>
         </div>
       </div>

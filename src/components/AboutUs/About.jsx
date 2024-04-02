@@ -35,7 +35,7 @@ const About = () => {
                         }
                        
                     </div>
-                    <Button title="Read More" clasaName="bg-secendory-light"/> 
+                    <Button title="Read More" clasaName="bg-secendory-light h-[50px] w-40"/> 
                 </div>
             </div>
         </div>

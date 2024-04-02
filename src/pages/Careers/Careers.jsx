@@ -1,8 +1,15 @@
 import React from 'react'
+import Hero from '../../components/Careers/Hero/Hero'
+import SkilledExperts from '../../components/Careers/SkilledExperts/SkilledExperts'
+import JobRequirements from '../../components/Careers/JobRequirement/JobRequirements'
 
 const Careers = () => {
   return (
-    <div>Careers</div>
+    <>
+      <Hero />
+      <SkilledExperts />
+      <JobRequirements/>
+    </>
   )
 }
 
