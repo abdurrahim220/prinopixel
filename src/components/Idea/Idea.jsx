@@ -4,7 +4,7 @@ const Idea = () => {
   return (
     <div className="customContainer my-10 xl:my-16">
       <section className="overflow-hidden bg-[#4A42EA] rounded-xl">
-        <div className="p-8 md:p-12 lg:px-16 lg:py-20">
+        <div className="p-8 md:p-12 lg:px-12 lg:py-16">
           <div className="text-start ">
             <h2 className="text-title-md lg:text-title-md4 xl:text-title-lg font-bold text-primary-light">
               Have Any Project Idea

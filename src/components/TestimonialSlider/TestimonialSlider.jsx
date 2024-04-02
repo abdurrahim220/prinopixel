@@ -1,4 +1,5 @@
 import React from "react";
+import ReviewCard from "../ReviewCard/ReviewCard";
 
 const TestimonialSlider = () => {
   return (
@@ -12,11 +13,12 @@ const TestimonialSlider = () => {
         </h1>
       </div>
 
-      <div className="py-3">
-        <div>
-          
+      <div className="py-3 flex justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center">
+         <ReviewCard/>
+         <ReviewCard/>
+         <ReviewCard/>
         </div>
-
       </div>
     </section>
   );

@@ -1,8 +1,18 @@
 import React from 'react'
+import Features from '../../components/Features/Features'
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <section>
+      <div className='customContainer py-20'>
+
+        {/* feature section */}
+        <>
+        <Features/>
+        </>
+        
+      </div>
+    </section>
   )
 }
 
